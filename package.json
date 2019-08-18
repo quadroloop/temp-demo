@@ -33,7 +33,10 @@
     "sweetalert2": "^8.16.0"
   },
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build && node ./src/server.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
