@@ -1,0 +1,295 @@
+{
+  "rules": {
+    "max_offsets": "4",
+    "admins": [
+      "Arnie Papeleras"
+    ],
+    "min_timein": "8:00 AM",
+    "max_timein": "10:00 AM",
+    "freedays": [
+      "Tuesday",
+      "Monday",
+      "Wednesday"
+    ]
+  },
+  "users": [
+    {
+      "name": "Bryce Mercines LOLz",
+      "email": "bryce.mercines@whitecloak.com"
+    },
+    {
+      "name": "Bren Aviador",
+      "email": "bren.aviador@whitecloak.com"
+    },
+    {
+      "name": "Bryce Mercines",
+      "email": "nplixel@gmail.com"
+    },
+    {
+      "name": "Bryce Mercines",
+      "email": "bryce.mercines@gmail.com"
+    },
+    {
+      "name": "Bryce Mercines",
+      "email": "bnmercines@gmail.com"
+    }
+  ],
+  "timelogs": [
+    {
+      "user": "bryce.mercines@whitecloak.com",
+      "timein": "12:30 pm",
+      "timeout": "12:59 pm",
+      "date": "2019/08/18",
+      "status": "LATE"
+    },
+    {
+      "user": "nplixel@gmail.com",
+      "timein": "02:10 pm",
+      "timeout": "02:10 pm",
+      "date": "2019/08/18",
+      "status": "LATE"
+    },
+    {
+      "user": "bryce.mercines@gmail.com",
+      "timein": "03:44 pm",
+      "timeout": "03:44 pm",
+      "date": "2019/08/18",
+      "status": "LATE",
+      "inToday": false
+    }
+  ],
+  "leaves": [
+    {
+      "leaveId": "7f527108031d4429be4c2308ddaceae1",
+      "user": "Bren Aviador",
+      "dateFrom": "2019/08/11",
+      "dateTo": "2019/08/13",
+      "reason": "nothing",
+      "reviewer": "Bryce Mercines",
+      "status": "REJECTED",
+      "date_filed": "2019/08/17",
+      "date_reviewed": "2019/01/17"
+    },
+    {
+      "leaveId": "e69084158b8541de9e67bfa03addb32e",
+      "user": "nplixel@gmail.com",
+      "date": "dsd",
+      "reason": "ad",
+      "reviewer": "",
+      "status": "PENDING",
+      "date_filed": "2019/08/18",
+      "date_reviewed": ""
+    },
+    {
+      "leaveId": "28e960be7e2d4cf9886eda991613a034",
+      "user": "nplixel@gmail.com",
+      "date": "today",
+      "reason": "Im sick",
+      "name": "Bryce Mercines",
+      "reviewer": "",
+      "status": "PENDING",
+      "date_filed": "2019/08/18",
+      "date_reviewed": ""
+    },
+    {
+      "leaveId": "90fa17f4d23d4661af3e82e8e5b280ba",
+      "user": "nplixel@gmail.com",
+      "date": "Aug 27, 30",
+      "reason": "Attending arnies birthday! :D",
+      "name": "Bryce Mercines",
+      "reviewer": "",
+      "status": "PENDING",
+      "date_filed": "2019/08/18",
+      "date_reviewed": ""
+    },
+    {
+      "leaveId": "05a1c2a3169c4968a30da7248dc2db49",
+      "user": "nplixel@gmail.com",
+      "date": "Jan1 -21",
+      "reason": "I dont want to work",
+      "name": "Bryce Mercines",
+      "reviewer": "",
+      "status": "PENDING",
+      "date_filed": "2019/08/18",
+      "date_reviewed": ""
+    },
+    {
+      "leaveId": "46b42ba7c3dd46fa8f998c9bbaa3c81a",
+      "user": "bryce.mercines@gmail.com",
+      "date": "Something",
+      "reason": "I'd like to go home",
+      "name": "Bryce Mercines",
+      "reviewer": "",
+      "status": "PENDING",
+      "date_filed": "2019/08/18",
+      "date_reviewed": ""
+    }
+  ],
+  "events": [
+    {
+      "date": "2019/01/01",
+      "description": "New year ",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/02/05",
+      "description": "Tuesday Chinese Lunar New Year's Day Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/02/25",
+      "description": "Monday People Power Anniversary Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/03/21",
+      "description": "Thursday Equinox Season",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/04/03",
+      "description": "Wednesday Lailatul Isra Wal Mi Raj Common local holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/04/09",
+      "description": "Tuesday The Day of Valor Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/04/18",
+      "description": "Thursday Maundy Thursday Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/04/19",
+      "description": "Friday Good Friday Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/04/20",
+      "description": "Saturday Black Saturday Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/04/21",
+      "description": "Sunday Easter Sunday Observance",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/05/01",
+      "description": "Wednesday Labor Day Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/06/06",
+      "description": "Thursday Eidul-Fitar Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/06/12",
+      "description": "Wednesday Independence Day Regular Holiday ",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/06/21",
+      "description": "Friday Solstice Season",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/08/12",
+      "description": "Monday Eid al-Adha (Feast of the Sacrifice) Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/08/13",
+      "description": "Tuesday Eid al-Adha Day 2 Common local holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/08/21",
+      "description": "Wednesday Ninoy Aquino Day Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/08/26",
+      "description": "Monday National Heroes Day Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/09/01",
+      "description": "Sunday Amun Jadid Muslim Common local holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/09/03",
+      "description": "Tuesday Yamashita Surrender Day Special Working Public Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/09/23",
+      "description": "Monday tember Equinox Season",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/11/01",
+      "description": "Friday All Saints' Day Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/11/02",
+      "description": "Saturday All Souls' Day Observance",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/11/10",
+      "description": "Sunday Maulid un-Nabi Common local holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/11/30",
+      "description": "Saturday Bonifacio Day Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/08",
+      "description": "Sunday Feast of the Immaculate Conception Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/22",
+      "description": "Sunday ember Solstice Season",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/24",
+      "description": "Tuesday Christmas Eve Observance",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/24",
+      "description": "Tuesday Additional Special Non-Working Day Special Non-working Holiday ",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/25",
+      "description": "Wednesday Christmas Day Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/30",
+      "description": "Monday Rizal Day Regular Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/12/31",
+      "description": "Tuesday New Year's Eve Special Non-working Holiday31 New Year's Eve Special Non-working Holiday",
+      "type": "Holiday"
+    },
+    {
+      "date": "2019/05/13",
+      "description": "Holiday Senatorial Elections 2019",
+      "type": "Holiday"
+    }
+  ]
+}

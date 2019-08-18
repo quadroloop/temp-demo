@@ -1,2 +1,3 @@
-# temp-demo
-api for tempo demo
+# wc-tempo
+
+A modern and cross-platform Time tracking and Attendance Web Application

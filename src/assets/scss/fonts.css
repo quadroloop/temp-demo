@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'ddc-hardware';
+  src: url('../fonts/DDCHardware-Regular.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'ddc-hardware-condensed';
+  src: url('../fonts/DDCHardware-Condensed.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'ddc-hardware-compressed';
+  src: url('../fonts/DDCHardware-Compressed.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: url('../fonts/BEBAS___.TTF') format('truetype');
+  font-weight: 300;
+}

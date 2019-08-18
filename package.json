@@ -1,0 +1,53 @@
+{
+  "name": "wc-tempo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
+    "@sweetalert2/theme-borderless": "^2.1.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "const": "^1.0.0",
+    "cors": "^2.8.5",
+    "fontawesome": "^5.6.3",
+    "formik": "^1.5.8",
+    "lodash": "^4.17.15",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "onsenui": "^2.10.10",
+    "rc-table": "^6.7.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-dom": "^16.9.0",
+    "react-google-login": "^5.0.5",
+    "react-onsenui": "^1.11.2",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "styled-components": "^4.3.2",
+    "styled-media-query": "^2.1.2",
+    "sweetalert2": "^8.16.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

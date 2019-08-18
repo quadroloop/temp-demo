@@ -1,0 +1,405 @@
+@import '~@fortawesome/fontawesome-free/css/all';
+@import '~@sweetalert2/theme-borderless/borderless.min.css';
+@import '~bootstrap/scss/bootstrap';
+@import '~rc-table/assets/index.css';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500&display=swap');
+
+@import './fonts.css';
+@import './rc-table-overrides';
+
+$bg-color-dark: #05091C;
+
+:root {
+  --bg-color-dark: #05091C;
+
+  --color-primary: #3D5FA9;
+  --color-primary-glow: rgb(61, 153, 169);
+  --color-success: #00F260;
+  --color-success-light: #0575E6;
+  --color-danger: #ee0979;
+  --color-danger-light: #ff6a00;
+  --color-danger-glow: #f2c582;
+
+  --animation-duration: 300ms;
+  --animation-easing: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  border-spacing: 0;
+}
+
+
+
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.hello {
+  font-size: 6rem;
+}
+
+#wc-logo{
+  width: 70px;
+}
+
+.swal2-container.swal2-shown {
+  background: rgba($bg-color-dark, 0.99)
+}
+
+@keyframes lds-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes lds-eclipse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.lds-eclipse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.lds-eclipse div {
+  position: absolute;
+  -webkit-animation: lds-eclipse 0.5s linear infinite;
+  animation: lds-eclipse 0.5s linear infinite;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #f7f7f7;
+  transform-origin: center;
+}
+
+.lds-eclipse {
+  -webkit-transform: translate(-100px, -100px) scale(1)
+    translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}
+
+
+.post {
+  width: 220px;
+  height: 80px;
+  margin: 10px;
+}
+.post .line {
+  float: left;
+  width: 520px;
+  height: 1px;
+  margin-top: 12px;
+  border-radius: 0px;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0px, rgba(229, 229, 229, 1) 240px, rgba(255, 255, 255, 0.2) 80px);
+  background-size: 900px;
+  animation: shine-lines 1.8s infinite ease-out;
+}
+.post .line ~ .line {
+  background-color: #ddd;
+}
+
+@keyframes shine-lines {
+  0% {
+    background-position: -100px;
+  }
+  40%, 100% {
+    background-position: 540px;
+  }
+}
+
+
+#glowlines {
+  position: absolute;
+  height: 100vh;
+  width: 30%;
+  left: 0px;
+  top: 0px;
+}
+
+.glowline1{
+  position: absolute;
+  top: -80px;
+  right: -180px;
+  -moz-transform: rotate(115deg);
+-webkit-transform: rotate(115deg);
+-o-transform: rotate(115deg);
+-ms-transform: rotate(115deg);
+transform: rotate(115deg);
+}
+
+.glowline2{
+  position: absolute;
+  top: calc(100vh - 25px);
+  left: calc(50% - 190px);
+  -moz-transform: rotate(297deg);
+-webkit-transform: rotate(297deg);
+-o-transform: rotate(297deg);
+-ms-transform: rotate(297deg);
+transform: rotate(297deg);
+}
+
+.glowline3{
+  position: absolute;
+  top: calc(50vh - 25px);
+  right: -250px;
+}
+
+.glowline3 .line{
+ width: 320px !important;
+}
+
+
+
+
+
+#line-slice{
+  position: fixed;
+  z-index: 1;
+}
+
+.lsc{
+  -moz-transform: rotate(115deg);
+  -webkit-transform: rotate(115deg);
+  -o-transform: rotate(115deg);
+  -ms-transform: rotate(115deg);
+  transform: rotate(115deg);
+  opacity: 0.8;
+}
+
+.s1{
+  position: fixed;
+  top: -100px;
+  left: 105px;
+}
+
+.s2{
+  position: fixed;
+  top: 860px;
+  left: -100px;
+  transform: rotate(296deg);
+}
+
+.s3{
+  position: fixed;
+  top: 380px;
+  left: 130px;
+}
+
+.s4{
+  position: fixed;
+  top: 90px;
+  left: 430px;
+}
+
+.s5{
+  position: fixed;
+  top: 390px;
+  left: 1230px;
+}
+
+.sl1{
+  animation-delay: 0.2s;
+}
+
+.sl2{
+  animation-delay: 0.4s;
+}
+
+
+.sl3{
+  animation-delay: 0.6s;
+}
+
+
+.sl4{
+  animation-delay: 0.8s;
+}
+
+
+.s1 .line{
+  animation: shine-lines 3.8s infinite ease-out;
+  /* animation-duration: 10s; */
+}
+
+.s2 .line{
+  animation: shine-lines 4.3s infinite ease-out;
+}
+
+.s3 .line{
+  animation: shine-lines 2.8s infinite ease-out;
+}
+
+.s4 .line{
+  animation: shine-lines 1.8s infinite ease-in;
+}
+
+.s5 .line{
+  animation: shine-lines 5.8s infinite ease-out;
+}
+
+.time-btn:hover{
+  cursor: pointer;
+  box-shadow: -1px -1px 17px 0px rgba(20,163,163,0.62);
+}
+
+.switch-btn{
+  width: 80px;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #24c6dc, #514a9d);
+  border: 0;
+  outline: none;
+  position: absolute;
+  top: 38%;
+  box-shadow: -1px -1px 17px 0px rgba(20,163,163,0.62);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.switch-btn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+.switch-btn.left{
+  left: -10px;
+  i {
+    float: right;
+    padding: 12px 30px;
+  }
+}
+
+.switch-btn.right{
+  right: -10px;
+  i {
+    float: left;
+    padding: 12px 30px;
+  }
+}
+
+.hidden-panel{
+  height: 100vh;
+  width: 32%;
+  z-index: 10;
+  position: fixed;
+  background: #f7f7f7;
+  padding: 20px;
+  overflow: auto !important;
+  h1,h2,h3,span{
+    font-family: 'bebas', sans-serif;
+  }
+}
+
+.timelogs{
+  right: 0px;
+}
+
+.manual-time{
+  left: 0px;
+}
+
+.fastest{
+  animation-duration: 400ms;
+}
+
+.day-num{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.time-card{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.text-active{
+  color: #3b5ea8;
+}
+
+.timeout-input{
+  border: 1.5px solid #ddd;
+  border-radius: 3px;
+  font-size: 50px;
+  width: 200px;
+  font-family: 'bebas', sans-serif;
+  text-align: center;
+}
+
+.cell{
+  text-align: center;
+  padding: 10px 25px;
+}
+
+#close-logs{
+  float: right;
+  margin-top: -35px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.late-tag{
+  padding: 10px;
+  font-size: 11px;
+}
+
+
+#timeline{
+  overflow: auto !important;
+}
+
+.timeout-card{
+  text-align: center;
+}
+
+.profile-img{
+  width: 50px;
+}
+
+#prevlogs, #manual{
+  display: none;
+}
+
+@media only screen and  (max-width: 900px){
+  .hidden-panel{
+    width: 100%;
+  }
+}
